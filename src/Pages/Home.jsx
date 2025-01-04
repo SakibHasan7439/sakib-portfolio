@@ -8,7 +8,7 @@ import Skills from "../Section/Skills/Skills";
 
 const Home = () => {
     return (
-        <div className="bg-[#000000] relative text-[#f5f5f5] h-screen">
+        <div className="bg-[#000000] relative text-[#f5f5f5]">
             <Navbar></Navbar>
             <AboutMe></AboutMe>
             <MyStory></MyStory>
