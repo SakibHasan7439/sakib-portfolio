@@ -11,7 +11,7 @@ import { FaNodeJs } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div id="skills" className="max-w-7xl w-full mx-auto p-2">
+    <div id="skills" className="max-w-7xl w-full mb-8 md:mb-16 lg:mb-28 mx-auto p-2">
       <Title>My Skills</Title>
       <Marquee>
         <div className="flex items-center gap-2">
