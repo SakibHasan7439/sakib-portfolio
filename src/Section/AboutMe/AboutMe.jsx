@@ -8,7 +8,7 @@ import { FaFacebook } from "react-icons/fa";
 
 const AboutMe = () => {
     return (
-        <div className="max-w-7xl w-full mx-auto mb-12 md:mb-16 lg:mb-28">
+        <div id='hero' className="max-w-7xl w-full mx-auto mb-12 md:mb-16 lg:mb-28">
             <div className="grid grid-cols-12 gap-4 justify-between items-center">
                 <div className="col-span-12 md:p-6 lg:w-[80%] md:col-span-7">
                     <h1 className="text-xl mb-4 font-playfair font-semibold md:text-3xl lg:text-5xl text-[#e5ff00]">FRONTEND WEB <br />

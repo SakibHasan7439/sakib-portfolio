@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import logo from "../../assets/logo.png";
 const Navbar = () => {
   return (
@@ -26,13 +26,13 @@ const Navbar = () => {
             className="menu text-lg menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
         >
             <li>
-            <Link>Home</Link>
+            <Link to="hero" smooth={true} duration={300}>Home</Link>
             </li>
             <li>
-            <Link>About Me</Link>
+            <Link to="myStory" smooth={true} duration={300}>About Me</Link>
             </li>
             <li>
-            <Link>Skills</Link>
+            <Link to="skills" smooth={true} duration={300}>Skills</Link>
             </li>
             <li>
             <Link>Education</Link>
@@ -49,13 +49,13 @@ const Navbar = () => {
     <div className="navbar-center hidden lg:flex">
         <ul className="menu text-xl font-playfair menu-horizontal px-1">
         <li>
-            <Link>Home</Link>
+            <Link to="hero" smooth={true} duration={300}>Home</Link>
         </li>
         <li>
-            <Link>About Me</Link>
+            <Link to="myStory" smooth={true} duration={300}>About Me</Link>
         </li>
         <li>
-            <Link>Skills</Link>
+            <Link to="skills" smooth={true} duration={300}>Skills</Link>
         </li>
         <li>
             <Link>Education</Link>
