@@ -7,7 +7,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        playfair: ['"playfair Display SC"', 'serif']
+      }
+    },
   },
   plugins: [daisyui],
 }
