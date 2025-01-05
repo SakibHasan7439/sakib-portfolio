@@ -17,7 +17,7 @@ const ContactForm = () => {
           .then(
             () => {
               toast.success('Email Sent Successfully!');
-              
+              form.current.reset();
             },
             (error) => {
               console.log('FAILED...', error.text);
