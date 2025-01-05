@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "./skills.css"
+import toast from 'react-hot-toast';
 
 const ContactForm = () => {
     const form = useRef();
@@ -15,7 +16,8 @@ const ContactForm = () => {
           })
           .then(
             () => {
-              console.log('SUCCESS!');
+              toast.success('Email Sent Successfully!');
+              
             },
             (error) => {
               console.log('FAILED...', error.text);
@@ -34,7 +36,7 @@ const ContactForm = () => {
         </div>
         <label>Message</label>
         <textarea className='text-white w-full outline-none rounded-md border-2 bg-transparent mb-2' name="message" />
-        <input type="submit" className='px-4 md:px-6 md:py-3 cursor-pointer py-2 rounded-md bg-[#e5ff00] hover:bg-[#adc002] onHover text-black' value="Send" />
+        <input type="submit" className='px-4 md:px-6 md:py-3 cursor-pointer py-2 rounded-md border-2 shadow-md shadow-[#e5ff00] border-[#e5ff00] hover:bg-[#e5ff00] onHover text-white hover:text-black' value="Send" />
       </form>
     );
 };

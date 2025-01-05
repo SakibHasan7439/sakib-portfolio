@@ -66,7 +66,7 @@ const Navbar = () => {
         </ul>
     </div>
     <div className="navbar-end">
-        <a href="Sakib_Hasan.pdf" download={"resume.pdf"}
+        <a className="border-2 shadow-md transition duration-200 hover:-translate-y-2 shadow-black border-black rounded-md px-4 py-2" href="Sakib_Hasan.pdf" download={"resume.pdf"}
              
         >
         RESUME
