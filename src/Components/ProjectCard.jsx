@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import "./skills.css"
 
 // eslint-disable-next-line react/prop-types
 const ProjectCard = ({projectInfo}) => {
     const {image, project_name, brief_description, id} = projectInfo;
   return (
-    <div className="card col-span-12 bg-white text-black md:col-span-6 shadow-xl">
+    <div className="card projectCard col-span-12 bg-white text-black md:col-span-6 shadow-xl">
       <figure>
         <img
           src={image}

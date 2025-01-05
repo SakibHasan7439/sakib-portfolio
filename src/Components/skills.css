@@ -2,3 +2,8 @@
     transition: transform 300ms ease-in-out;
     transform: translateY(-12px);
 }
+
+.projectCard:hover{
+    transition: transform 300ms ease-in-out;
+    transform: translateY(-12px);
+}

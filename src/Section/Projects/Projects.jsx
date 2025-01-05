@@ -13,9 +13,9 @@ const Projects = () => {
     }, []);
 
     return (
-        <div>
+        <div id="project">
             <Title>Projects that represent my Skills</Title>
-            <div className="grid grid-cols-12 gap-4 lg:gap-8 max-w-6xl w-full mx-auto">
+            <div className="grid grid-cols-12 mb-8 md:mb-16 lg:mb-28 gap-4 lg:gap-8 max-w-6xl w-full mx-auto">
                 {
                     data.map((projectInfo) => <ProjectCard
                     key={projectInfo.id}

@@ -1,4 +1,5 @@
 import AboutMe from "../Section/AboutMe/AboutMe";
+import ContactMe from "../Section/ContactMe/ContactMe";
 import Education from "../Section/Education/Education";
 import Footer from "../Section/Footer/Footer";
 import MyStory from "../Section/MyStory/MyStory";
@@ -15,6 +16,7 @@ const Home = () => {
             <Skills></Skills>
             <Education></Education>
             <Projects></Projects>
+            <ContactMe></ContactMe>
             <Footer></Footer>
         </div>
     );

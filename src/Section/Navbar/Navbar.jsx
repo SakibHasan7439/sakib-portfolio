@@ -38,7 +38,7 @@ const Navbar = () => {
             <Link to="education" smooth={true} duration={500}>Education</Link>
             </li>
             <li>
-            <Link to="education" smooth={true} duration={600}>Projects</Link>
+            <Link to="project" smooth={true} duration={600}>Projects</Link>
             </li>
         </ul>
         </div>
@@ -61,16 +61,13 @@ const Navbar = () => {
             <Link to="education" smooth={true} duration={500}>Education</Link>
         </li>
         <li>
-            <Link to="education" smooth={true} duration={600}>Projects</Link>
+            <Link to="project" smooth={true} duration={600}>Projects</Link>
         </li>
         </ul>
     </div>
     <div className="navbar-end">
-        <a
-        href="../../assets/Sakib_Hasan.docx"
-        download="document.docx"
-        target="_blank"
-        className="btn font-playfair"
+        <a href="Sakib_Hasan.pdf" download={"resume.pdf"}
+             
         >
         RESUME
         </a>
