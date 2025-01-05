@@ -32,13 +32,13 @@ const Navbar = () => {
             <Link to="myStory" smooth={true} duration={300}>About Me</Link>
             </li>
             <li>
-            <Link to="skills" smooth={true} duration={300}>Skills</Link>
+            <Link to="skills" smooth={true} duration={400}>Skills</Link>
             </li>
             <li>
-            <Link to="education" smooth={true} duration={300}>Education</Link>
+            <Link to="education" smooth={true} duration={500}>Education</Link>
             </li>
             <li>
-            <Link>Projects</Link>
+            <Link to="education" smooth={true} duration={600}>Projects</Link>
             </li>
         </ul>
         </div>
@@ -55,13 +55,13 @@ const Navbar = () => {
             <Link to="myStory" smooth={true} duration={300}>About Me</Link>
         </li>
         <li>
-            <Link to="skills" smooth={true} duration={300}>Skills</Link>
+            <Link to="skills" smooth={true} duration={400}>Skills</Link>
         </li>
         <li>
-            <Link to="education" smooth={true} duration={300}>Education</Link>
+            <Link to="education" smooth={true} duration={500}>Education</Link>
         </li>
         <li>
-            <Link>Projects</Link>
+            <Link to="education" smooth={true} duration={600}>Projects</Link>
         </li>
         </ul>
     </div>

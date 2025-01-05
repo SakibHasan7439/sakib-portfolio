@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "project_name": "Pet Shop",
+      "image": "https://i.ibb.co.com/ZWtsVwy/Screenshot-2025-01-05-012540.png",
+      "technology_used": ["HTML", "Tailwind CSS", "JavaScript", "DaisyUI"],
+      "brief_description": "A modern and responsive Pet adopting website template, showcasing various category of animals listings with a clean design.",
+      "live_link": "https://benevolent-marigold-f64119.netlify.app/",
+      "github_link": "https://github.com/programming-hero-web-course2/b10a6-pet-adoption-SakibHasan7439",
+      "improvement_suggestions": [
+        "Authentication system can be implemented to make the website more secure",
+        "liked functionality could be more user friendly"
+      ],
+      "challenges_faced": [
+        "Aligning different sections for responsiveness across devices",
+        "Implementing custom modal for dynamic card rendering"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Artifact Showcasing Website",
+      "image": "https://i.ibb.co.com/6mW0NVR/Screenshot-2025-01-05-013701.png",
+      "technology_used": ["HTML", "Tailwind CSS", "JavaScript", "React", "firebase", "NodeJS", "Express jS", "MongoDB"],
+      "brief_description": "A Historical Artifact showcasing website that showcase the oldest and valuable artifact that human ever found with there brief description.",
+      "live_link": "https://artifacts-tracker.web.app/",
+      "github_link": "https://github.com/programming-hero-web-course2/b10a11-client-side-SakibHasan7439",
+      "improvement_suggestions": [
+        "User Interface are one of the issue with the page that can be fixed",
+        "User Liked feature could be more user friendly"
+      ],
+      "challenges_faced": [
+        "Integrating React components smoothly",
+        "Debugging issues in both side of frontend and backend"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Visa Navigator website",
+      "image": "https://i.ibb.co.com/Wc2Gfw6/Screenshot-2025-01-05-014555.png",
+      "technology_used": ["HTML", "Tailwind CSS", "JavaScript", "React", "firebase", "NodeJS", "Express jS", "MongoDB"],
+      "brief_description": "A full stack website that helps users to add visa and others services to there potential customers",
+      "live_link": "https://visa-navigator-client.web.app/",
+      "github_link": "https://github.com/programming-hero-web-course2/b10-a10-client-side-SakibHasan7439",
+      "improvement_suggestions": [
+        "website security could be more strong using JWT or other features",
+        "UI could be more impressive"
+      ],
+      "challenges_faced": [
+        "Managing state across multiple components",
+        "handling both frontend and backend"
+      ]
+    }
+  ]

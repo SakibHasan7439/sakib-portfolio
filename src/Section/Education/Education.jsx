@@ -19,7 +19,7 @@ const Education = () => {
                     </div>
                     <div className="divider bg-[#e5ff00] h-[2px] mb-6"></div>
                     <Title>
-                        BSc in Computer Science (currently) 
+                        BSc in Computer Science (current) 
                     </Title>
                     <p><strong>Institute Name: </strong>Bangladesh University Of Business And Technology</p>
                     <p><strong>Started Year:</strong> 2024</p>
