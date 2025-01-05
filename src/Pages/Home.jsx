@@ -1,7 +1,6 @@
 import AboutMe from "../Section/AboutMe/AboutMe";
 import ContactMe from "../Section/ContactMe/ContactMe";
 import Education from "../Section/Education/Education";
-import Footer from "../Section/Footer/Footer";
 import MyStory from "../Section/MyStory/MyStory";
 import Navbar from "../Section/Navbar/Navbar";
 import Projects from "../Section/Projects/Projects";
@@ -17,7 +16,6 @@ const Home = () => {
             <Education></Education>
             <Projects></Projects>
             <ContactMe></ContactMe>
-            <Footer></Footer>
         </div>
     );
 };
