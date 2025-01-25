@@ -35,7 +35,7 @@ const AboutMe = () => {
 
             <LinkHover
               icon={<FaLinkedin className="text-3xl rounded-full"></FaLinkedin>}
-              address={"https://linkedin.com"}
+              address={"https://www.linkedin.com/in/sakib-hasan23dev"}
             ></LinkHover>
 
             <LinkHover
