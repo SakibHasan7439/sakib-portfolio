@@ -8,6 +8,7 @@ import { DiMongodb } from "react-icons/di";
 import { FaBootstrap } from "react-icons/fa";
 import Marquee from "react-fast-marquee";
 import { FaNodeJs } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 
 const Skills = () => {
   return (
@@ -32,6 +33,10 @@ const Skills = () => {
           <p>REACT</p>
           </SkillsCard>
           <SkillsCard>
+            <RiNextjsFill className="text-black text-2xl md:text-5xl"></RiNextjsFill>
+          <p>NextJS</p>
+          </SkillsCard>
+          <SkillsCard>
             <FaBootstrap className="text-purple-500 text-2xl md:text-5xl"></FaBootstrap>
             <p>BOOTSTRAP</p>
           </SkillsCard>
@@ -39,7 +44,7 @@ const Skills = () => {
             <FaNodeJs className="text-[#339933] text-2xl md:text-5xl"></FaNodeJs>
             <p>NODEJS</p>
           </SkillsCard>
-          <SkillsCard>
+          <SkillsCard className={"mr-2"}>
             <DiMongodb className="text-green-500 text-2xl md:text-5xl"></DiMongodb>
             <p>MONGODB</p>
           </SkillsCard>

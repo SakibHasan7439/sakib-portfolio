@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer";
 import AboutMe from "../Section/AboutMe/AboutMe";
 import ContactMe from "../Section/ContactMe/ContactMe";
 import Education from "../Section/Education/Education";
@@ -16,6 +17,7 @@ const Home = () => {
             <Education></Education>
             <Projects></Projects>
             <ContactMe></ContactMe>
+            <Footer></Footer>
         </div>
     );
 };

@@ -9,6 +9,10 @@ const ContactMe = () => {
             <Title>Feel Free To Contact Me</Title> 
             <div className="grid grid-cols-12 gap-4 items-center">
                 <div className="border-2 col-span-12 md:col-span-6 border-[#e5ff00] rounded-md shadow-lg shadow-[#e5ff00] p-4 md:p-8">
+                    <div className="text-white pl-4 mb-4 text-lg">
+                        <p>WhatsApp: +8801644078709</p>
+                        <p>Email: sakibhasan16h@gmail.com</p>
+                    </div>
                     <ContactForm></ContactForm>
                 </div>
                 <div className="col-span-12 md:col-span-6 p-4 lg:p-8">

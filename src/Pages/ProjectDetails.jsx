@@ -19,7 +19,8 @@ const ProjectDetails = () => {
         technology_used,
         brief_description,
         live_link,
-        github_link,
+        github_client_link,
+        github_server_link,
         image,
         improvement_suggestions,
         challenges_faced} = details;
@@ -28,10 +29,21 @@ const ProjectDetails = () => {
         <div className="max-w-5xl my-4 md:my-8 lg:my-16 mx-auto w-full">
             <img className="rounded-md border-2 mb-4 border-black p-4" src={image} alt="project image" />
             <div>
-                <h2 className="text-lg md:text-2xl mb-2"><strong>Project Name: </strong>{project_name}</h2>
-                <p><strong>Website Live Link:</strong> <Link className="underline" to={`${live_link}`} target="_blank">{live_link}</Link></p>
-                <p className="mb-4"><strong>GitHub Link:</strong><Link className="underline" to={`${github_link}`} target="_blank">{github_link}</Link></p>
-                <p>{brief_description}</p>
+                <div className="flex flex-col mb-4 md:flex-row justify-between items-center">
+                    <div>
+                        <h2 className="text-lg md:text-2xl mb-2"><strong>Project Name: </strong>{project_name}</h2>
+                    </div>
+                    <div className="flex gap-2 items-center">
+                        <button className="px-4 py-2 rounded-md text-black bg-yellow-400"><Link to={`${live_link}`} target="_blank">Live Link</Link></button>
+
+                        <button className="px-4 py-2 rounded-md text-black bg-yellow-400"><Link to={`${github_client_link}`} target="_blank">ClientSide</Link></button>
+                        
+                        <button className="px-4 py-2 rounded-md text-black bg-yellow-400"><Link to={`${github_server_link}`} target="_blank">ServerSide</Link></button>
+
+                    </div>
+                </div>
+                
+                <p className="mb-4"><strong>Project Description: </strong>{brief_description}</p>
                 <p><strong>Improvements can be made: </strong></p>
                 <ul className="list-disc mb-4">        
                     {
