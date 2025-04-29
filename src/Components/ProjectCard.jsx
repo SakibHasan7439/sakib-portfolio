@@ -26,7 +26,7 @@ const ProjectCard = ({ projectInfo }) => {
         <div className="card-actions justify-end">
           <Link
             to={`/projectDetails/${id}`}
-            className="btn bg-[#e5ff00] text-black"
+            className="btn bg-[#3944bc] text-white"
           >
             View Details
           </Link>

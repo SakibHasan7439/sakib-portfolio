@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 import logo from "../../assets/logo.png";
 const Navbar = () => {
   return (
-    <div className="navbar mb-8 sticky top-0 z-20 bg-[#e5ff00] text-black">
+    <div className="navbar mb-8 sticky top-0 z-20 bg-[#3944bc] text-white">
     <div className="navbar-start">
         <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -66,7 +66,7 @@ const Navbar = () => {
         </ul>
     </div>
     <div className="navbar-end">
-        <a className="border-2 shadow-md transition duration-200 hover:-translate-y-2 shadow-black border-black rounded-md px-4 py-2" href="Sakib_Hasan.pdf" download={"resume.pdf"}
+        <a className="border-2 shadow-md transition duration-200 hover:-translate-y-2 border-white rounded-md px-4 py-2" href="Sakib_Hasan.pdf" download={"resume.pdf"}
              
         >
         RESUME

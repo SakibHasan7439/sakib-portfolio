@@ -17,7 +17,7 @@ const Education = () => {
                         <p><strong>Total Year:</strong> 2019–2023</p>
                         <p><strong>Location:</strong> Pabna, Bangladesh</p>
                     </div>
-                    <div className="divider bg-[#e5ff00] h-[2px] mb-6"></div>
+                    <div className="divider bg-[#3944bc] h-[2px] mb-6"></div>
                     <Title>
                         BSc in Computer Science (current) 
                     </Title>
