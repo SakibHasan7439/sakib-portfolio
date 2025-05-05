@@ -5,7 +5,7 @@ import ContactForm from "../../Components/ContactForm";
 
 const ContactMe = () => {
     return (
-        <div className="max-w-7xl w-full mx-auto">
+        <div className="max-w-7xl w-full mb-10 mx-auto">
             <Title>Feel Free To Contact Me</Title> 
             <div className="grid grid-cols-12 gap-4 items-center">
                 <div className="border-2 col-span-12 md:col-span-6 border-[#3944bc] rounded-md shadow-lg shadow-[#3944bc] p-4 md:p-8">

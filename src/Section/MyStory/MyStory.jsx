@@ -4,7 +4,7 @@ import aboutMe from "../../assets/aboutMe.json"
 
 const MyStory = () => {
   return (
-    <div id="myStory" className="max-w-7xl w-full mx-auto mb-12 md:mb-16 lg:mb-28">
+    <div id="myStory" className="max-w-7xl px-2 xl:px-0 w-full mx-auto mb-12 md:mb-16 lg:mb-28">
       <Title>Lets Learn About Me</Title>
       <div className="grid grid-cols-12 items-center ">
         <Lottie className="col-span-12 lg:col-span-5" animationData={aboutMe}></Lottie>

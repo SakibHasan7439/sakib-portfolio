@@ -7,7 +7,7 @@ const ProjectCard = ({ projectInfo }) => {
     projectInfo;
 
   return (
-    <div className="card col-span-12 md:col-span-4 flex projectCard bg-white text-black shadow-xl">
+    <div className="card flex projectCard bg-white text-black shadow-xl">
       <figure className="p-2">
         <img
           className="h-[300px] rounded-lg object-cover"

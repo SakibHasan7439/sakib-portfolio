@@ -4,7 +4,7 @@ import education from "../../assets/education.json"
 
 const Education = () => {
     return (
-        <div id="education" className="max-w-7xl w-full mx-auto mb-8 md:mb-16">
+        <div id="education" className="max-w-7xl px-2 xl:px-0 w-full mx-auto mb-8 md:mb-16">
             <Title>My Educational Qualifications</Title>  
             <div className="grid grid-cols-12 items-center gap-4">
                 <div className="col-span-12 lg:col-span-6">
